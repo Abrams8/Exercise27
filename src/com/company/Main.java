@@ -9,6 +9,6 @@ public class Main {
         System.out.println("Введите строку: ");
         String newText = in.nextLine();
         newText = newText.trim();
-        System.out.println("Количество слов в строке: " +newText.split("\\W+").length);
+        System.out.println("Количество слов в строке: " + newText.split("\\W+").length);
     }
 }
